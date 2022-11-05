@@ -6,7 +6,9 @@
   --first-color: #3258A6;
   --dark-color: #002166;
   --dark-color-alt: #282B3A;
-  --white-color: #E6E7E9;
+  --primary-color: #9B8048;
+  --white-smoke-color: #E6E7E9;
+  --white-color: #fff;
   --body-font: "Poppins", sans-serif;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
@@ -85,7 +87,7 @@ img {
   background-image: url(../imgs/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 /*===== NAV =====*/
@@ -148,141 +150,6 @@ img {
     background-color: transparent;
     color: var(--white-color);
     border-color: var(--white-color);
-  }
-  .main #section1 .r1 {
-    padding-top: 70px;
-  }
-  .main #section1 .para {
-    text-align: center;
-    margin-top: 1rem;
-    padding: 0 60px;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 120%;
-    font-family: Poppins, ariel;
-  }
-  .main .section2 .sec2_button {
-    margin: 5px 0;
-  }
-  .main .section2 .sec2_button .out_btn5 .btn5 {
-    margin: auto;
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-    width: 77%;
-    padding: 6px 7px;
-  }
-  .main .section2 .sec2_button .out_btn5 .btn5:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .main #section3 #all_container .r3 {
-    padding: 10px;
-  }
-  .main #section3 #all_container .r3 .c1 {
-    width: 326px;
-    height: 414px;
-    background: rgba(0, 33, 102, 0.4);
-    border-radius: 10px;
-  }
-  .main #section3 #all_container .r3 .c1 .card-text1 {
-    padding-top: -8px;
-  }
-  .main #section3 #all_container .r3 .c1 .card-text1 p {
-    margin: 17px 0;
-    background-color: #002166;
-    opacity: 1;
-    border-color: #002166;
-    padding: 6px;
-    border-radius: 9px;
-    font-size: 15px;
-    width: 89%;
-  }
-  .main #section3 .sec3_button {
-    margin: 5px 0;
-  }
-  .main #section3 .sec3_button .out_btn6 .btn6 {
-    margin: auto;
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-    width: 90%;
-    padding: 6px 4px;
-  }
-  .main #section3 .sec3_button .out_btn6 .btn6:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .main #section4 {
-    margin: 7rem 0;
-  }
-  .main #section4 #all_container .r .c {
-    background: rgba(0, 33, 102, 0.2);
-    border-radius: 11px;
-    width: 170px;
-    height: 179px;
-    background-size: cover;
-  }
-  .main #section4 #all_container .r .c #cardBody {
-    padding: 19px;
-  }
-  .main #section4 #all_container .r .c #cardBody .img1 {
-    margin: 37px;
-  }
-  .main #section5 #all_container5 .r5 {
-    padding: 12px;
-  }
-  .main #section5 #all_container5 .r5 .c5 {
-    width: 326px;
-    background: rgba(0, 33, 102, 0.4);
-    border-radius: 10px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 {
-    padding-top: -8px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e {
-    padding: 0 5px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e .p_1 {
-    font-size: 11px;
-    opacity: 0.7;
-    margin: 13px 0;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e .p_2 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 100%;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .btn8 {
-    color: var(--white-color);
-    background-color: var(--dark-color);
-    border-color: var(--dark-color);
-    margin: 26px 0;
-    width: 14rem;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .btn8:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .main #section5 .sec5_button {
-    margin: 5px 0;
-  }
-  .main #section5 .sec5_button .out_btn9 .btn9 {
-    margin: auto;
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-    width: 90%;
-    padding: 6px 4px;
-  }
-  .main #section5 .sec5_button .out_btn9 .btn9:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
   }
   #footer {
     background-color: var(--dark-color);
@@ -419,12 +286,14 @@ img {
   }
   .header {
     height: calc(var(--header-height) + 1rem);
+    background-color: var(--white-color);
   }
   .header__logo, .header__toggle {
     display: none;
   }
   .nav {
     width: 100%;
+    background-color: var(--white-color);
   }
   .nav__content {
     grid-template-columns: repeat(4, -webkit-max-content);
@@ -443,7 +312,27 @@ img {
   }
   .nav__menu {
     align-self: center;
-    margin: 0px 0rem 0 31rem;
+    align-self: center;
+    margin: 0px 0rem 0 24rem;
+  }
+  .nav__menu .btn2 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 13rem;
+    padding: 1px 14px;
+    border-radius: 0;
+    text-align: start;
+  }
+  .nav__menu .btn2:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .nav__menu .btn2 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
   }
   .nav__img {
     width: 32px;
@@ -461,6 +350,7 @@ img {
   .nav__item {
     margin: 0 0.25rem;
     color: black;
+    display: flex;
   }
   .nav__link {
     padding: 0.5rem 0.8rem;
@@ -472,26 +362,6 @@ img {
   }
   .nav__buttons {
     padding-top: 0.5rem;
-  }
-  .nav__buttons .btn1 {
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-  }
-  .nav__buttons .btn1:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .nav__buttons .btn2 {
-    color: var(--white-color);
-    background-color: var(--dark-color);
-    border-color: var(--dark-color);
-  }
-  .nav__buttons .btn2:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
   }
   .main {
     margin-top: 4rem;
@@ -509,193 +379,22 @@ img {
     color: white;
   }
   .main #hero #div1 #div2 .itm1 {
-    margin-top: 8rem;
+    margin-top: -7rem;
   }
-  .main #hero #div1 #div2 .itm1 form .icon {
-    padding: 10px 0px;
-    min-width: 40px;
-  }
-  .main #hero #div1 #div2 .itm1 form #email {
-    background: transparent;
-    width: 69%;
-    padding: 5px 35px;
-    color: white;
-  }
-  .main #hero #div1 #div2 .itm1 form .hero_button {
-    margin: 5px 0;
-  }
-  .main #hero #div1 #div2 .itm1 form .hero_button .btn3 {
+  .main #hero #div1 #div2 .itm1 .btn3 {
     color: var(--white-color);
-    background-color: var(--dark-color);
-    border-color: var(--dark-color);
-    width: 69%;
-    padding: 6px 42px;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 25%;
+    border-radius: 0%;
+    padding: 6px 20px;
   }
-  .main #hero #div1 #div2 .itm1 form .hero_button .btn3:hover {
-    background-color: var(--white-color);
-    color: var(--dark-color);
-    border-color: var(--white-color);
-  }
-  .main #hero #div1 #div2 .itm1 form .hero_button .btn3 span {
-    word-spacing: 0px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-  }
-  .main #section1 .r1 {
-    padding-top: 70px;
-  }
-  .main #section1 .r1 .para {
-    text-align: center;
-    margin-top: 1rem;
-    padding: 0 60px;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 120%;
-    font-family: Poppins, ariel;
-  }
-  .main .section2 .sec2_button {
-    margin: 5px 0;
-  }
-  .main .section2 .sec2_button .out_btn5 .btn5 {
-    margin: auto;
-    color: var(--white-color);
+  .main #hero #div1 #div2 .itm1 .btn3:hover {
     background-color: transparent;
-    border-color: var(--white-color);
-    width: 79%;
-    padding: 6px 42px;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
   }
-  .main .section2 .sec2_button .out_btn5 .btn5:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .main .section2 .sec2_button .out_btn5 .btn5 span {
-    word-spacing: 0px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-  }
-  .main #section3 {
-    margin: 5rem 8rem;
-  }
-  .main #section3 #all_container .r3 {
-    padding: 10px;
-  }
-  .main #section3 #all_container .r3 .c1 {
-    width: 326px;
-    height: 414px;
-    background: rgba(0, 33, 102, 0.4);
-    border-radius: 10px;
-  }
-  .main #section3 #all_container .r3 .c1 .card-text1 {
-    padding-top: -8px;
-  }
-  .main #section3 #all_container .r3 .c1 .card-text1 p {
-    margin: 17px 0;
-    background-color: #002166;
-    opacity: 1;
-    border-color: #002166;
-    padding: 6px;
-    border-radius: 9px;
-    font-size: 15px;
-    width: 89%;
-  }
-  .main #section3 .sec3_button {
-    margin: 5px 0;
-  }
-  .main #section3 .sec3_button .out_btn6 .btn6 {
-    margin: auto;
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-    width: 100%;
-    padding: 6px 4px;
-  }
-  .main #section3 .sec3_button .out_btn6 .btn6:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .main #section3 .sec3_button .out_btn6 .btn6 span {
-    word-spacing: 0px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-  }
-  .main #section4 {
-    margin: 7rem 0;
-  }
-  .main #section4 #all_container .r .c {
-    background: rgba(0, 33, 102, 0.2);
-    border-radius: 11px;
-    background-size: cover;
-  }
-  .main #section4 #all_container .r .c #cardBody {
-    padding: 19px;
-  }
-  .main #section4 #all_container .r .c #cardBody .img1 {
-    margin: 42px;
-  }
-  .main #section5 {
-    margin: 5rem 8rem;
-  }
-  .main #section5 #all_container5 .r5 {
-    padding: 10px;
-  }
-  .main #section5 #all_container5 .r5 .c5 {
-    width: 326px;
-    background: rgba(0, 33, 102, 0.4);
-    border-radius: 10px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 {
-    padding-top: -8px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e {
-    padding: 0 5px;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e .p_1 {
-    font-size: 11px;
-    opacity: 0.7;
-    margin: 13px 0;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .cardtext_e .p_2 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 100%;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .btn8 {
-    color: var(--white-color);
-    background-color: var(--dark-color);
-    border-color: var(--dark-color);
-    margin: 26px 0;
-    width: 14rem;
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .btn8:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .main #section5 #all_container5 .r5 .c5 #cardBody5 .btn8 span {
-    word-spacing: 0px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-  }
-  .main #section5 .sec5_button {
-    margin: 5px 0;
-  }
-  .main #section5 .sec5_button .out_btn9 .btn9 {
-    margin: auto;
-    color: var(--white-color);
-    background-color: transparent;
-    border-color: var(--white-color);
-    width: 70%;
-    padding: 6px 4px;
-  }
-  .main #section5 .sec5_button .out_btn9 .btn9:hover {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border-color: var(--dark-color);
-  }
-  .main #section5 .sec5_button .out_btn9 .btn9 span {
+  .main #hero #div1 #div2 .itm1 .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
@@ -761,7 +460,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .bd-grid {
-    margin-left: 16rem;
+    margin-left: 14rem;
     margin-right: auto;
   }
 }

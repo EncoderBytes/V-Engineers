@@ -7,7 +7,9 @@
     --first-color: #3258A6;
     --dark-color: #002166;
     --dark-color-alt: #282B3A;
-    --white-color: #E6E7E9;
+    --primary-color: #9B8048;
+    --white-smoke-color: #E6E7E9;
+    --white-color: #fff;
 
     --body-font: 'Poppins', sans-serif;
     --normal-font-size: .938rem;
@@ -95,7 +97,7 @@ img {
     // padding: 0;
     // margin: 0;
     // box-shadow: #002166 0px 3px 8px;
-    opacity: .9;
+    opacity: 1;
 }
 
 
@@ -172,210 +174,6 @@ img {
             }
         }
 
-        #section1 {
-            .r1 {
-                padding-top: 70px;
-            }
-
-            .para {
-                text-align: center;
-                margin-top: 1rem;
-                padding: 0 60px;
-                color: white;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 120%;
-                font-family: Poppins, ariel;
-            }
-        }
-
-        .section2 {
-            .sec2_button {
-                margin: 5px 0;
-
-                .out_btn5 {
-                    .btn5 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 77%;
-                        padding: 6px 7px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
-                            color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
-                    }
-                }
-
-
-            }
-        }
-
-        #section3 {
-            // margin: 5rem 8rem;
-
-            #all_container {
-                .r3 {
-                    padding: 10px;
-
-                    .c1 {
-                        width: 326px;
-                        height: 414px;
-                        background: rgba(0, 33, 102, .4);
-                        border-radius: 10px;
-
-                        .card-text1 {
-                            padding-top: -8px;
-
-                            p {
-                                margin: 17px 0;
-                                background-color: #002166;
-                                opacity: 1;
-                                border-color: #002166;
-                                padding: 6px;
-                                border-radius: 9px;
-                                font-size: 15px;
-                                width: 89%;
-
-                            }
-                        }
-                    }
-                }
-            }
-
-            .sec3_button {
-                margin: 5px 0;
-
-                .out_btn6 {
-                    .btn6 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 90%;
-                        padding: 6px 4px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
-                            color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
-                    }
-                }
-
-
-            }
-        }
-
-        #section4 {
-            margin: 7rem 0;
-
-            #all_container {
-
-
-                .r {
-                    .c {
-                        background: rgba(0, 33, 102, 0.2);
-                        border-radius: 11px;
-                        width: 170px;
-                        height: 179px;
-                        background-size: cover;
-
-                        #cardBody {
-                            padding: 19px;
-
-                            .img1 {
-                                margin: 37px;
-
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #section5 {
-            #all_container5 {
-                .r5 {
-                    padding: 12px;
-
-                    .c5 {
-                        width: 326px;
-                        // height: 414px;
-                        background: rgba(0, 33, 102, .4);
-                        border-radius: 10px;
-
-                        #cardBody5 {
-                            padding-top: -8px;
-
-                            .cardtext_e {
-                                padding: 0 5px;
-
-                                .p_1 {
-                                    font-size: 11px;
-                                    opacity: 0.7;
-                                    margin: 13px 0;
-                                }
-
-                                .p_2 {
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    line-height: 100%;
-
-                                }
-
-
-                            }
-
-                            .btn8 {
-                                color: var(--white-color);
-                                background-color: var(--dark-color);
-                                border-color: var(--dark-color);
-                                margin: 26px 0;
-                                width: 14rem;
-
-                                &:hover {
-                                    background-color: transparent;
-                                    color: var(--white-color);
-                                    border-color: var(--white-color);
-                                }
-                            }
-
-
-                        }
-                    }
-                }
-            }
-
-            .sec5_button {
-                margin: 5px 0;
-
-                .out_btn9 {
-                    .btn9 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 90%;
-                        padding: 6px 4px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
-                            color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
-                    }
-                }
-
-
-            }
-        }
     }
 
 
@@ -553,6 +351,7 @@ img {
 
     .header {
         height: calc(var(--header-height) + 1rem);
+        background-color: var(--white-color);
 
         &__logo,
         &__toggle {
@@ -562,6 +361,7 @@ img {
 
     .nav {
         width: 100%;
+        background-color: var(--white-color);
 
         &__content {
             grid-template-columns: repeat(4, max-content);
@@ -583,7 +383,31 @@ img {
 
         &__menu {
             align-self: center;
-            margin: 0px 0rem 0 31rem;
+            align-self: center;
+            margin: 0px 0rem 0 24rem;
+
+            .btn2 {
+                color: var(--white-color);
+                // opacity: .4;
+                background-color: var(--primary-color);
+                border-color: var(--primary-color);
+                width: 13rem;
+                padding: 1px 14px;
+                border-radius: 0;
+                text-align: start;
+
+                &:hover {
+                    background-color: transparent;
+                    color: var(--primary-color);
+                    border-color: var(--primary-color);
+                }
+
+                span {
+                    word-spacing: 0px;
+                    letter-spacing: 1.8px;
+                    text-transform: uppercase;
+                }
+            }
 
 
         }
@@ -607,6 +431,7 @@ img {
         &__item {
             margin: 0 .25rem;
             color: black;
+            display: flex;
         }
 
         &__link {
@@ -622,30 +447,7 @@ img {
         &__buttons {
             padding-top: .5rem;
 
-            .btn1 {
-                color: var(--white-color);
-                // opacity: .4;
-                background-color: transparent;
-                border-color: var(--white-color);
 
-                &:hover {
-                    background-color: var(--dark-color);
-                    color: var(--white-color);
-                    border-color: var(--dark-color);
-                }
-            }
-
-            .btn2 {
-                color: var(--white-color);
-                background-color: var(--dark-color);
-                border-color: var(--dark-color);
-
-                &:hover {
-                    background-color: transparent;
-                    color: var(--white-color);
-                    border-color: var(--white-color);
-                }
-            }
         }
     }
 
@@ -663,277 +465,33 @@ img {
             #div1 {
                 #div2 {
                     .itm1 {
-                        margin-top: 8rem;
+                        margin-top: -7rem;
 
-                        form {
-                            .icon {
-                                padding: 10px 0px;
-                                min-width: 40px;
-                            }
-
-                            #email {
-                                background: transparent;
-                                width: 69%;
-                                padding: 5px 35px;
-                                color: white;
-                            }
-
-                            .hero_button {
-                                margin: 5px 0;
-
-                                .btn3 {
-                                    color: var(--white-color);
-                                    // opacity: .4;
-                                    background-color: var(--dark-color);
-                                    border-color: var(--dark-color);
-                                    width: 69%;
-                                    padding: 6px 42px;
-
-                                    &:hover {
-                                        background-color: var(--white-color);
-                                        color: var(--dark-color);
-                                        border-color: var(--white-color);
-                                    }
-
-                                    span {
-                                        word-spacing: 0px;
-                                        letter-spacing: 1.8px;
-                                        text-transform: uppercase;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #section1 {
-            .r1 {
-                padding-top: 70px;
-
-                .para {
-                    text-align: center;
-                    margin-top: 1rem;
-                    padding: 0 60px;
-                    color: white;
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 120%;
-                    font-family: Poppins, ariel;
-                }
-            }
-        }
-
-        .section2 {
-            .sec2_button {
-                margin: 5px 0;
-
-                .out_btn5 {
-                    .btn5 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 79%;
-                        padding: 6px 42px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
+                        .btn3 {
                             color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
+                            // opacity: .4;
+                            background-color: var(--primary-color);
+                            border-color: var(--primary-color);
+                            width: 25%;
+                            border-radius: 0%;
+                            padding: 6px 20px;
 
-                        span {
-                            word-spacing: 0px;
-                            letter-spacing: 1.8px;
-                            text-transform: uppercase;
-                        }
-                    }
-                }
-
-
-            }
-        }
-
-        #section3 {
-            margin: 5rem 8rem;
-
-            #all_container {
-                .r3 {
-                    padding: 10px;
-
-                    .c1 {
-                        width: 326px;
-                        height: 414px;
-                        background: rgba(0, 33, 102, .4);
-                        border-radius: 10px;
-
-                        .card-text1 {
-                            padding-top: -8px;
-
-                            p {
-                                margin: 17px 0;
-                                background-color: #002166;
-                                opacity: 1;
-                                border-color: #002166;
-                                padding: 6px;
-                                border-radius: 9px;
-                                font-size: 15px;
-                                width: 89%;
-
+                            &:hover {
+                                background-color: transparent;
+                                color: var(--primary-color);
+                                border-color: var(--primary-color);
                             }
-                        }
-                    }
-                }
-            }
 
-            .sec3_button {
-                margin: 5px 0;
-
-                .out_btn6 {
-                    .btn6 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 100%;
-                        padding: 6px 4px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
-                            color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
-
-                        span {
-                            word-spacing: 0px;
-                            letter-spacing: 1.8px;
-                            text-transform: uppercase;
-                        }
-                    }
-                }
-
-
-            }
-        }
-
-        #section4 {
-            margin: 7rem 0;
-
-            #all_container {
-
-
-                .r {
-                    .c {
-                        background: rgba(0, 33, 102, 0.2);
-                        border-radius: 11px;
-                        // width: 33rem;
-                        background-size: cover;
-
-
-                        #cardBody {
-                            padding: 19px;
-
-                            .img1 {
-                                margin: 42px;
+                            span {
+                                word-spacing: 0px;
+                                letter-spacing: 1.8px;
+                                text-transform: uppercase;
                             }
                         }
                     }
                 }
             }
         }
-
-        #section5 {
-            margin: 5rem 8rem;
-
-            #all_container5 {
-                .r5 {
-                    padding: 10px;
-
-                    .c5 {
-                        width: 326px;
-                        // height: 414px;
-                        background: rgba(0, 33, 102, .4);
-                        border-radius: 10px;
-
-                        #cardBody5 {
-                            padding-top: -8px;
-
-                            .cardtext_e {
-                                padding: 0 5px;
-
-                                .p_1 {
-                                    font-size: 11px;
-                                    opacity: 0.7;
-                                    margin: 13px 0;
-                                }
-
-                                .p_2 {
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    line-height: 100%;
-
-                                }
-                            }
-
-                            .btn8 {
-                                color: var(--white-color);
-                                background-color: var(--dark-color);
-                                border-color: var(--dark-color);
-                                margin: 26px 0;
-                                width: 14rem;
-
-                                &:hover {
-                                    background-color: transparent;
-                                    color: var(--white-color);
-                                    border-color: var(--white-color);
-                                }
-
-                                span {
-                                    word-spacing: 0px;
-                                    letter-spacing: 1.8px;
-                                    text-transform: uppercase;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            .sec5_button {
-                margin: 5px 0;
-
-                .out_btn9 {
-                    .btn9 {
-                        margin: auto;
-                        color: var(--white-color);
-                        // opacity: .4;
-                        background-color: transparent;
-                        border-color: var(--white-color);
-                        width: 70%;
-                        padding: 6px 4px;
-
-                        &:hover {
-                            background-color: var(--dark-color);
-                            color: var(--white-color);
-                            border-color: var(--dark-color);
-                        }
-
-                        span {
-                            word-spacing: 0px;
-                            letter-spacing: 1.8px;
-                            text-transform: uppercase;
-                        }
-                    }
-                }
-
-
-            }
-        }
-
 
     }
 
@@ -1020,7 +578,7 @@ img {
 
 @media screen and(min-width: 1024px) {
     .bd-grid {
-        margin-left: 16rem;
+        margin-left: 14rem;
         margin-right: auto;
     }
 }
