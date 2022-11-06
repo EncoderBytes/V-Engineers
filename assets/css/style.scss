@@ -707,88 +707,182 @@ img {
 
         }
 
-    }
+        #section4 {
+            background-image: url(../imgs/Group14.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin: 75px 0 0 0;
 
+            .maindiv {
 
-    // footer
-    #footer {
-        background-color: var(--dark-color);
-        margin-top: 10rem;
+                .item2 {
+                    form {
 
-        #footer_main {
-            // margin-left: 2.6rem;
+                        .btn3 {
+                            color: var(--white-color);
+                            // opacity: .4;
+                            background-color: transparent;
+                            border-color: var(--primary-color);
+                            width: 50%;
+                            border-radius: 0%;
+                            padding: 6px 20px;
+                            margin: 33px 0 0 0;
+                            font-size: 12px;
 
-            ::placeholder {
-                color: white;
-            }
-
-            #f_div1 {
-                #div2 {
-                    .itm1 {
-                        margin-top: -3rem;
-
-                        form {
-                            .icon {
-                                padding: 10px 0px;
-                                min-width: 40px;
+                            &:hover {
+                                background-color: var(--primary-color);
+                                color: var(--white-color);
+                                border-color: var(--primary-color);
                             }
 
-                            #email {
-                                background: transparent;
-                                width: 69%;
-                                padding: 5px 35px;
-                                color: white;
-                            }
-
-                            .hero_button {
-                                margin: 5px 0;
-
-                                .btn3 {
-                                    color: var(--dark-color);
-                                    // opacity: .4;
-                                    background-color: var(--white-color);
-                                    border-color: var(--white-color);
-                                    width: 69%;
-                                    padding: 6px 42px;
-
-                                    &:hover {
-                                        background-color: var(--first-color);
-                                        color: var(--white-color);
-                                        border-color: var(--first-color);
-                                    }
-
-                                    span {
-                                        word-spacing: 0px;
-                                        letter-spacing: 1.8px;
-                                        text-transform: uppercase;
-                                    }
-                                }
-                            }
-                        }
-
-                        #link-ftr {
-                            a {
-                                color: white;
-                                display: inline-block;
-                                font-size: 8px;
-                                padding: 0 2px;
-
-                                &:hover {
-                                    color: var(--first-color);
-                                }
+                            span {
+                                word-spacing: 0px;
+                                letter-spacing: 1.8px;
+                                text-transform: uppercase;
                             }
                         }
                     }
                 }
 
-                .item2 {
-                    margin-top: -12rem;
-                    // margin-bottom: 1rem;
+            }
+        }
+
+        #section5 {
+            margin-top: 10rem;
+
+            .r1 {
+                #maindiv {
+                    padding: 75px 0 0 0;
+
+                    h4 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 13px;
+                        line-height: 19px;
+                        display: flex;
+                        align-items: center;
+                        padding: 3rem 0;
+                    }
+
+                    a {
+                        .btn3 {
+                            color: var(--white-color);
+                            // opacity: .4;
+                            background-color: var(--primary-color);
+                            border-color: var(--primary-color);
+                            width: 50%;
+                            border-radius: 0%;
+                            padding: 6px 20px;
+
+                            &:hover {
+                                background-color: transparent;
+                                color: var(--primary-color);
+                                border-color: var(--primary-color);
+                            }
+
+                            span {
+                                word-spacing: 0px;
+                                letter-spacing: 1.8px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
                 }
+            }
+
+        }
+    }
+
+}
+
+
+// footer
+#footer {
+    background-color: var(--dark-color);
+    margin-top: 10rem;
+
+    #footer_main {
+        // margin-left: 2.6rem;
+
+        ::placeholder {
+            color: white;
+        }
+
+        #f_div1 {
+            #div2 {
+                .itm1 {
+                    margin-top: -3rem;
+
+                    form {
+                        .icon {
+                            padding: 10px 0px;
+                            min-width: 40px;
+                        }
+
+                        #email {
+                            background: transparent;
+                            width: 69%;
+                            padding: 5px 35px;
+                            color: white;
+                        }
+
+                        .hero_button {
+                            margin: 5px 0;
+
+                            .btn3 {
+                                color: var(--dark-color);
+                                // opacity: .4;
+                                background-color: var(--white-color);
+                                border-color: var(--white-color);
+                                width: 69%;
+                                padding: 6px 42px;
+
+                                &:hover {
+                                    background-color: var(--first-color);
+                                    color: var(--white-color);
+                                    border-color: var(--first-color);
+                                }
+
+                                span {
+                                    word-spacing: 0px;
+                                    letter-spacing: 1.8px;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+
+                    #link-ftr {
+                        a {
+                            color: white;
+                            display: inline-block;
+                            font-size: 8px;
+                            padding: 0 2px;
+
+                            &:hover {
+                                color: var(--first-color);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item2 {
+                margin-top: -12rem;
+                // margin-bottom: 1rem;
             }
         }
     }
 }
+
 
 @media screen and(min-width: 1024px) {
     .bd-grid {

@@ -547,65 +547,132 @@ img {
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  #footer {
-    background-color: var(--dark-color);
-    margin-top: 10rem;
+  .main #section4 {
+    background-image: url(../imgs/Group14.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 75px 0 0 0;
   }
-  #footer #footer_main ::-moz-placeholder {
-    color: white;
-  }
-  #footer #footer_main :-ms-input-placeholder {
-    color: white;
-  }
-  #footer #footer_main ::placeholder {
-    color: white;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 {
-    margin-top: -3rem;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 form .icon {
-    padding: 10px 0px;
-    min-width: 40px;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 form #email {
-    background: transparent;
-    width: 69%;
-    padding: 5px 35px;
-    color: white;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 form .hero_button {
-    margin: 5px 0;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 {
-    color: var(--dark-color);
-    background-color: var(--white-color);
-    border-color: var(--white-color);
-    width: 69%;
-    padding: 6px 42px;
-  }
-  #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3:hover {
-    background-color: var(--first-color);
+  .main #section4 .maindiv .item2 form .btn3 {
     color: var(--white-color);
-    border-color: var(--first-color);
+    background-color: transparent;
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+    margin: 33px 0 0 0;
+    font-size: 12px;
   }
-  #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 span {
+  .main #section4 .maindiv .item2 form .btn3:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+  }
+  .main #section4 .maindiv .item2 form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a {
-    color: white;
-    display: inline-block;
-    font-size: 8px;
-    padding: 0 2px;
+  .main #section5 {
+    margin-top: 10rem;
   }
-  #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a:hover {
-    color: var(--first-color);
+  .main #section5 .r1 #maindiv {
+    padding: 75px 0 0 0;
   }
-  #footer #footer_main #f_div1 .item2 {
-    margin-top: -12rem;
+  .main #section5 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section5 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main #section5 .r1 #maindiv a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main #section5 .r1 #maindiv a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #section5 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
   }
 }
+#footer {
+  background-color: var(--dark-color);
+  margin-top: 10rem;
+}
+#footer #footer_main ::-moz-placeholder {
+  color: white;
+}
+#footer #footer_main :-ms-input-placeholder {
+  color: white;
+}
+#footer #footer_main ::placeholder {
+  color: white;
+}
+#footer #footer_main #f_div1 #div2 .itm1 {
+  margin-top: -3rem;
+}
+#footer #footer_main #f_div1 #div2 .itm1 form .icon {
+  padding: 10px 0px;
+  min-width: 40px;
+}
+#footer #footer_main #f_div1 #div2 .itm1 form #email {
+  background: transparent;
+  width: 69%;
+  padding: 5px 35px;
+  color: white;
+}
+#footer #footer_main #f_div1 #div2 .itm1 form .hero_button {
+  margin: 5px 0;
+}
+#footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 {
+  color: var(--dark-color);
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+  width: 69%;
+  padding: 6px 42px;
+}
+#footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3:hover {
+  background-color: var(--first-color);
+  color: var(--white-color);
+  border-color: var(--first-color);
+}
+#footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 span {
+  word-spacing: 0px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+#footer #footer_main #f_div1 #div2 .itm1 #link-ftr a {
+  color: white;
+  display: inline-block;
+  font-size: 8px;
+  padding: 0 2px;
+}
+#footer #footer_main #f_div1 #div2 .itm1 #link-ftr a:hover {
+  color: var(--first-color);
+}
+#footer #footer_main #f_div1 .item2 {
+  margin-top: -12rem;
+}
+
 @media screen and (min-width: 1024px) {
   .bd-grid {
     margin-left: 14rem;
