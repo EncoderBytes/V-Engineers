@@ -99,7 +99,7 @@ img {
     position: fixed;
     top: 0;
     left: -100%;
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
     color: var(--white-color);
     width: 100%;
     height: 100vh;
@@ -110,46 +110,26 @@ img {
   .main {
     margin-top: 3rem;
   }
-  .main #hero {
-    margin-left: 0;
-  }
-  .main #hero ::-moz-placeholder {
-    color: white;
-  }
-  .main #hero :-ms-input-placeholder {
-    color: white;
-  }
-  .main #hero ::placeholder {
-    color: white;
-  }
   .main #hero #div1 #div2 .itm1 {
-    margin-top: 0rem;
+    margin-top: -7rem;
   }
-  .main #hero #div1 #div2 .itm1 form .icon {
-    padding: 10px 0px;
-    min-width: 40px;
-  }
-  .main #hero #div1 #div2 .itm1 form #email {
-    background: transparent;
-    width: 69%;
-    padding: 5px 35px;
-    color: white;
-    margin-bottom: 10px;
-  }
-  .main #hero #div1 #div2 .itm1 form .hero_button {
-    margin: 5px 0;
-  }
-  .main #hero #div1 #div2 .itm1 form .hero_button .btn3 {
+  .main #hero #div1 #div2 .itm1 .btn3 {
     color: var(--white-color);
-    background-color: var(--dark-color);
-    border-color: var(--dark-color);
-    width: 69%;
-    padding: 6px 42px;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
   }
-  .main #hero #div1 #div2 .itm1 form .hero_button .btn3:hover {
+  .main #hero #div1 #div2 .itm1 .btn3:hover {
     background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #hero #div1 #div2 .itm1 .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
   }
   #footer {
     background-color: var(--dark-color);
@@ -368,6 +348,10 @@ img {
   }
   .main #hero {
     margin-left: 3.5rem;
+    background-image: url(../imgs/herobg.png);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    height: 43rem;
   }
   .main #hero ::-moz-placeholder {
     color: white;
@@ -395,6 +379,170 @@ img {
     border-color: var(--primary-color);
   }
   .main #hero #div1 #div2 .itm1 .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main #section1 {
+    margin-top: 10rem;
+  }
+  .main #section1 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main #section1 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section1 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main #section1 .r1 #maindiv a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main #section1 .r1 #maindiv a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #section1 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main #section2 {
+    margin-top: 10rem;
+  }
+  .main #section2 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main #section2 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section2 .r1 #maindiv #paradev p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main #section2 .r1 #div1 .r3 h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 34px 0 0px 0;
+  }
+  .main #section2 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+  }
+  .main #section2 .r1 #div1 .r3 a .btn2 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 0px;
+  }
+  .main #section2 .r1 #div1 .r3 a .btn2:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #section2 .r1 #div1 .r3 a .btn2 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main #section3 {
+    margin-top: 10rem;
+  }
+  .main #section3 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main #section3 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section3 .r1 #maindiv #paradev p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main #section3 .r1 #div1 .r3 h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .main #section3 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+  }
+  .main #section3 .r1 #div1 .r3 a p span {
+    padding: 2px 0 0 10px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A7A2A2;
+  }
+  .main #section3 .r1 #div1 .r3 a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main #section3 .r1 #div1 .r3 a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #section3 .r1 #div1 .r3 a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
