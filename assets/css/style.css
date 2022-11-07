@@ -110,10 +110,69 @@ img {
   .main {
     margin-top: 3rem;
   }
-  .main #hero #div1 #div2 .itm1 {
+  .main .main {
+    margin-top: 4rem;
+  }
+  .main .main #hero {
+    margin-left: 3.5rem;
+    background-image: url(../imgs/herobg.png);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    height: 43rem;
+  }
+  .main .main #hero ::-moz-placeholder {
+    color: white;
+  }
+  .main .main #hero :-ms-input-placeholder {
+    color: white;
+  }
+  .main .main #hero ::placeholder {
+    color: white;
+  }
+  .main .main #hero #div1 #div2 .itm1 {
     margin-top: -7rem;
   }
-  .main #hero #div1 #div2 .itm1 .btn3 {
+  .main .main #hero #div1 #div2 .itm1 .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 25%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main .main #hero #div1 #div2 .itm1 .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #hero #div1 #div2 .itm1 .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section1 {
+    margin-top: 10rem;
+  }
+  .main .main #section1 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main .main #section1 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section1 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main .main #section1 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -121,12 +180,303 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
-  .main #hero #div1 #div2 .itm1 .btn3:hover {
+  .main .main #section1 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
-  .main #hero #div1 #div2 .itm1 .btn3 span {
+  .main .main #section1 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section2 {
+    margin-top: 10rem;
+  }
+  .main .main #section2 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main .main #section2 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section2 .r1 #maindiv #paradev p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main .main #section2 .r1 #div1 .r3 h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 34px 0 0px 0;
+  }
+  .main .main #section2 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+  }
+  .main .main #section2 .r1 #div1 .r3 a .btn2 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 0px;
+  }
+  .main .main #section2 .r1 #div1 .r3 a .btn2:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #section2 .r1 #div1 .r3 a .btn2 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section3 {
+    margin-top: 10rem;
+  }
+  .main .main #section3 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main .main #section3 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section3 .r1 #maindiv #paradev p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main .main #section3 .r1 #div1 .r3 h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .main .main #section3 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+  }
+  .main .main #section3 .r1 #div1 .r3 a p span {
+    padding: 2px 0 0 10px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A7A2A2;
+  }
+  .main .main #section3 .r1 #div1 .r3 a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main .main #section3 .r1 #div1 .r3 a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #section3 .r1 #div1 .r3 a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section4 {
+    background-image: url(../imgs/Group14.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 75px 0 0 0;
+  }
+  .main .main #section4 .maindiv .item2 form .btn3 {
+    color: var(--white-color);
+    background-color: transparent;
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+    margin: 33px 0 0 0;
+    font-size: 12px;
+  }
+  .main .main #section4 .maindiv .item2 form .btn3:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #section4 .maindiv .item2 form .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section5 {
+    margin-top: 10rem;
+  }
+  .main .main #section5 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main .main #section5 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section5 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main .main #section5 .r1 #maindiv a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main .main #section5 .r1 #maindiv a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #section5 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main .main #section6 {
+    margin-top: 10rem;
+  }
+  .main .main #section6 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main .main #section6 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section6 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .main .main #section6 .r1 #div1 .r3 .r3div #div2 {
+    padding: 10px 0 0 0;
+  }
+  .main .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    /* primary color */
+    color: #9B8048;
+  }
+  .main .main #section6 .r1 #div1 .r3 .r3div #div2 p {
+    font-style: normal;
+    line-height: 19px;
+    font-size: 12px;
+    /* identical to box height */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    /* gray */
+    color: #A7A2A2;
+  }
+  .main .main #section7 {
+    margin-top: 10rem;
+    background-image: url(../imgs/Rectangle12.png);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+  }
+  .main .main #section7 .r1 #maindiv {
+    padding: 149px 0 128px 0;
+  }
+  .main .main #section7 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main .main #section7 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+  }
+  .main .main #section7 .r1 .div2 .formdiv {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    margin: 135px 0;
+  }
+  .main .main #section7 .r1 .div2 .formdiv form input {
+    background: none;
+  }
+  .main .main #section7 .r1 .div2 .formdiv form textarea {
+    background: none;
+  }
+  .main .main #section7 .r1 .div2 .formdiv form .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main .main #section7 .r1 .div2 .formdiv form .btn3:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border-color: var(--primary-color);
+  }
+  .main .main #section7 .r1 .div2 .formdiv form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
@@ -609,6 +959,107 @@ img {
     border-color: var(--primary-color);
   }
   .main #section5 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main #section6 {
+    margin-top: 10rem;
+  }
+  .main #section6 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main #section6 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section6 .r1 #div1 .r3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .main #section6 .r1 #div1 .r3 .r3div #div2 {
+    padding: 10px 0 0 0;
+  }
+  .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    /* primary color */
+    color: #9B8048;
+  }
+  .main #section6 .r1 #div1 .r3 .r3div #div2 p {
+    font-style: normal;
+    line-height: 19px;
+    font-size: 12px;
+    /* identical to box height */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    /* gray */
+    color: #A7A2A2;
+  }
+  .main #section7 {
+    margin-top: 10rem;
+    background-image: url(../imgs/Rectangle12.png);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+  }
+  .main #section7 .r1 #maindiv {
+    padding: 149px 0 128px 0;
+  }
+  .main #section7 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section7 .r1 #maindiv p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+  }
+  .main #section7 .r1 .div2 .formdiv {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    margin: 135px 0;
+  }
+  .main #section7 .r1 .div2 .formdiv form input {
+    background: none;
+  }
+  .main #section7 .r1 .div2 .formdiv form textarea {
+    background: none;
+  }
+  .main #section7 .r1 .div2 .formdiv form .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main #section7 .r1 .div2 .formdiv form .btn3:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border-color: var(--primary-color);
+  }
+  .main #section7 .r1 .div2 .formdiv form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
