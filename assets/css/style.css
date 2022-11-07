@@ -1066,7 +1066,7 @@ img {
   }
 }
 #footer {
-  background-color: var(--dark-color);
+  background-color: var(--white-color);
   margin-top: 10rem;
 }
 #footer #footer_main ::-moz-placeholder {
