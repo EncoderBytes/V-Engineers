@@ -93,6 +93,7 @@ img {
 /*===== NAV =====*/
 @media screen and (max-width: 780px) {
   .header {
+    background-color: var(--white-color);
     opacity: 1;
   }
   .nav {
@@ -108,71 +109,27 @@ img {
     transition: 0.5s;
   }
   .main {
-    margin-top: 3rem;
-  }
-  .main .main {
     margin-top: 4rem;
   }
-  .main .main #hero {
-    margin-left: 3.5rem;
+  .main #hero {
     background-image: url(../imgs/herobg.png);
-    background-size: 100rem;
+    background-size: 54rem;
     background-repeat: no-repeat;
     height: 43rem;
   }
-  .main .main #hero ::-moz-placeholder {
+  .main #hero ::-moz-placeholder {
     color: white;
   }
-  .main .main #hero :-ms-input-placeholder {
+  .main #hero :-ms-input-placeholder {
     color: white;
   }
-  .main .main #hero ::placeholder {
+  .main #hero ::placeholder {
     color: white;
   }
-  .main .main #hero #div1 #div2 .itm1 {
+  .main #hero #div1 #div2 .itm1 {
     margin-top: -7rem;
   }
-  .main .main #hero #div1 #div2 .itm1 .btn3 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    width: 25%;
-    border-radius: 0%;
-    padding: 6px 20px;
-  }
-  .main .main #hero #div1 #div2 .itm1 .btn3:hover {
-    background-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-  }
-  .main .main #hero #div1 #div2 .itm1 .btn3 span {
-    word-spacing: 0px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-  }
-  .main .main #section1 {
-    margin-top: 10rem;
-  }
-  .main .main #section1 .r1 #maindiv {
-    padding: 75px 0 0 0;
-  }
-  .main .main #section1 .r1 #maindiv h4 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-  }
-  .main .main #section1 .r1 #maindiv p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    padding: 3rem 0;
-  }
-  .main .main #section1 .r1 #maindiv a .btn3 {
+  .main #hero #div1 #div2 .itm1 .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -180,30 +137,31 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
-  .main .main #section1 .r1 #maindiv a .btn3:hover {
+  .main #hero #div1 #div2 .itm1 .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
-  .main .main #section1 .r1 #maindiv a .btn3 span {
+  .main #hero #div1 #div2 .itm1 .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  .main .main #section2 {
-    margin-top: 10rem;
+  .main #section1 {
+    padding: 29px;
   }
-  .main .main #section2 .r1 #maindiv {
+  .main #section1 .r1 #maindiv {
     padding: 75px 0 0 0;
+    margin: 10px 0 0 0;
   }
-  .main .main #section2 .r1 #maindiv h4 {
+  .main #section1 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
   }
-  .main .main #section2 .r1 #maindiv #paradev p {
+  .main #section1 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
@@ -212,7 +170,53 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
-  .main .main #section2 .r1 #div1 .r3 h4 {
+  .main #section1 .r1 #maindiv a .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 50%;
+    border-radius: 0%;
+    padding: 6px 20px;
+  }
+  .main #section1 .r1 #maindiv a .btn3:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .main #section1 .r1 #maindiv a .btn3 span {
+    word-spacing: 0px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+  .main #section1 .r1 .main3itm {
+    margin: 27px 0 0 0;
+  }
+  .main #section2 {
+    padding: 29px;
+  }
+  .main #section2 .r1 #maindiv {
+    padding: 75px 0 0 0;
+  }
+  .main #section2 .r1 #maindiv h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .main #section2 .r1 #maindiv #paradev p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .main #section2 .r1 #div1 .r3 {
+    padding: 10px 0;
+  }
+  .main #section2 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -221,7 +225,7 @@ img {
     align-items: center;
     padding: 34px 0 0px 0;
   }
-  .main .main #section2 .r1 #div1 .r3 p {
+  .main #section2 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -230,7 +234,7 @@ img {
     align-items: center;
     padding: 15px 0;
   }
-  .main .main #section2 .r1 #div1 .r3 a .btn2 {
+  .main #section2 .r1 #div1 .r3 a .btn2 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -238,30 +242,30 @@ img {
     border-radius: 0%;
     padding: 6px 0px;
   }
-  .main .main #section2 .r1 #div1 .r3 a .btn2:hover {
+  .main #section2 .r1 #div1 .r3 a .btn2:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
-  .main .main #section2 .r1 #div1 .r3 a .btn2 span {
+  .main #section2 .r1 #div1 .r3 a .btn2 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  .main .main #section3 {
-    margin-top: 10rem;
+  .main #section3 {
+    padding: 29px;
   }
-  .main .main #section3 .r1 #maindiv {
+  .main #section3 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
-  .main .main #section3 .r1 #maindiv h4 {
+  .main #section3 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
   }
-  .main .main #section3 .r1 #maindiv #paradev p {
+  .main #section3 .r1 #maindiv #paradev p {
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
@@ -270,7 +274,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
-  .main .main #section3 .r1 #div1 .r3 h4 {
+  .main #section3 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -278,7 +282,7 @@ img {
     display: flex;
     align-items: center;
   }
-  .main .main #section3 .r1 #div1 .r3 p {
+  .main #section3 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -287,7 +291,7 @@ img {
     align-items: center;
     padding: 4px 0;
   }
-  .main .main #section3 .r1 #div1 .r3 a p span {
+  .main #section3 .r1 #div1 .r3 a p span {
     padding: 2px 0 0 10px;
     font-style: normal;
     font-size: 12px;
@@ -296,7 +300,7 @@ img {
     align-items: center;
     color: #A7A2A2;
   }
-  .main .main #section3 .r1 #div1 .r3 a .btn3 {
+  .main #section3 .r1 #div1 .r3 a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -304,23 +308,26 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
-  .main .main #section3 .r1 #div1 .r3 a .btn3:hover {
+  .main #section3 .r1 #div1 .r3 a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
-  .main .main #section3 .r1 #div1 .r3 a .btn3 span {
+  .main #section3 .r1 #div1 .r3 a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  .main .main #section4 {
+  .main #section4 {
     background-image: url(../imgs/Group14.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 75px 0 0 0;
   }
-  .main .main #section4 .maindiv .item2 form .btn3 {
+  .main #section4 .maindiv {
+    padding: 5px 29px 45px 29px;
+  }
+  .main #section4 .maindiv .item2 form .btn3 {
     color: var(--white-color);
     background-color: transparent;
     border-color: var(--primary-color);
@@ -330,30 +337,30 @@ img {
     margin: 33px 0 0 0;
     font-size: 12px;
   }
-  .main .main #section4 .maindiv .item2 form .btn3:hover {
+  .main #section4 .maindiv .item2 form .btn3:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-color: var(--primary-color);
   }
-  .main .main #section4 .maindiv .item2 form .btn3 span {
+  .main #section4 .maindiv .item2 form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  .main .main #section5 {
-    margin-top: 10rem;
+  .main #section5 {
+    padding: 29px;
   }
-  .main .main #section5 .r1 #maindiv {
+  .main #section5 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
-  .main .main #section5 .r1 #maindiv h4 {
+  .main #section5 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
   }
-  .main .main #section5 .r1 #maindiv p {
+  .main #section5 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
@@ -362,7 +369,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
-  .main .main #section5 .r1 #maindiv a .btn3 {
+  .main #section5 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -370,30 +377,33 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
-  .main .main #section5 .r1 #maindiv a .btn3:hover {
+  .main #section5 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
-  .main .main #section5 .r1 #maindiv a .btn3 span {
+  .main #section5 .r1 #maindiv a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
-  .main .main #section6 {
-    margin-top: 10rem;
+  .main #section5 .r1 .main3itm {
+    margin: 27px 0 0 0;
   }
-  .main .main #section6 .r1 #maindiv {
+  .main #section6 {
+    padding: 29px;
+  }
+  .main #section6 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
-  .main .main #section6 .r1 #maindiv h4 {
+  .main #section6 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
   }
-  .main .main #section6 .r1 #div1 .r3 p {
+  .main #section6 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -402,10 +412,10 @@ img {
     align-items: center;
     padding: 40px 0;
   }
-  .main .main #section6 .r1 #div1 .r3 .r3div #div2 {
+  .main #section6 .r1 #div1 .r3 .r3div #div2 {
     padding: 10px 0 0 0;
   }
-  .main .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
+  .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
@@ -417,7 +427,7 @@ img {
     /* primary color */
     color: #9B8048;
   }
-  .main .main #section6 .r1 #div1 .r3 .r3div #div2 p {
+  .main #section6 .r1 #div1 .r3 .r3div #div2 p {
     font-style: normal;
     line-height: 19px;
     font-size: 12px;
@@ -429,16 +439,17 @@ img {
     /* gray */
     color: #A7A2A2;
   }
-  .main .main #section7 {
+  .main #section7 {
     margin-top: 10rem;
     background-image: url(../imgs/Rectangle12.png);
-    background-size: 100rem;
+    background-size: 139rem;
     background-repeat: no-repeat;
+    padding: 29px;
   }
-  .main .main #section7 .r1 #maindiv {
-    padding: 149px 0 128px 0;
+  .main #section7 .r1 #maindiv {
+    padding: 28px 0 0 0;
   }
-  .main .main #section7 .r1 #maindiv h4 {
+  .main #section7 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -446,24 +457,24 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
-  .main .main #section7 .r1 #maindiv p {
+  .main #section7 .r1 #maindiv p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: white;
   }
-  .main .main #section7 .r1 .div2 .formdiv {
+  .main #section7 .r1 .div2 .formdiv {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    margin: 135px 0;
+    margin: 61px 0;
   }
-  .main .main #section7 .r1 .div2 .formdiv form input {
+  .main #section7 .r1 .div2 .formdiv form input {
     background: none;
   }
-  .main .main #section7 .r1 .div2 .formdiv form textarea {
+  .main #section7 .r1 .div2 .formdiv form textarea {
     background: none;
   }
-  .main .main #section7 .r1 .div2 .formdiv form .btn3 {
+  .main #section7 .r1 .div2 .formdiv form .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -471,19 +482,18 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
-  .main .main #section7 .r1 .div2 .formdiv form .btn3:hover {
+  .main #section7 .r1 .div2 .formdiv form .btn3:hover {
     background-color: transparent;
     color: var(--white-color);
     border-color: var(--primary-color);
   }
-  .main .main #section7 .r1 .div2 .formdiv form .btn3 span {
+  .main #section7 .r1 .div2 .formdiv form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
   #footer {
-    background-color: var(--dark-color);
-    margin-top: 10rem;
+    background-color: var(--white-color);
   }
   #footer #footer_main ::-moz-placeholder {
     color: white;
@@ -494,19 +504,15 @@ img {
   #footer #footer_main ::placeholder {
     color: white;
   }
-  #footer #footer_main #f_div1 #div2 .itm1 {
-    margin-top: -3rem;
-  }
   #footer #footer_main #f_div1 #div2 .itm1 form .icon {
-    padding: 10px 0 10px 75px;
+    padding: 10px 0px;
     min-width: 40px;
   }
   #footer #footer_main #f_div1 #div2 .itm1 form #email {
     background: transparent;
-    width: 76%;
-    padding: 5px 11px;
+    width: 69%;
+    padding: 5px 35px;
     color: white;
-    margin: 0 37px;
   }
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button {
     margin: 5px 0;
@@ -515,12 +521,12 @@ img {
     color: var(--dark-color);
     background-color: var(--white-color);
     border-color: var(--white-color);
-    width: 77%;
-    padding: 6px 10px;
+    width: 69%;
+    padding: 6px 42px;
   }
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3:hover {
     background-color: var(--first-color);
-    color: var(--dark-color);
+    color: var(--white-color);
     border-color: var(--first-color);
   }
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 span {
@@ -531,14 +537,14 @@ img {
   #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a {
     color: white;
     display: inline-block;
-    font-size: 11px;
+    font-size: 8px;
     padding: 0 2px;
   }
   #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a:hover {
     color: var(--first-color);
   }
   #footer #footer_main #f_div1 .item2 {
-    margin-top: 0rem;
+    margin-top: -12rem;
   }
 }
 .nav__content {
