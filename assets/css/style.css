@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -48,6 +49,10 @@ a {
   text-decoration: none;
 }
 
+.newclr {
+  background: var(--primary-color);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -74,9 +79,11 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
 .header__logo {
   color: var(--white-color);
 }
+
 .header__toggle {
   font-size: 1.5rem;
   color: var(--white-color);
@@ -96,6 +103,7 @@ img {
     background-color: var(--white-color);
     opacity: 1;
   }
+
   .nav {
     position: fixed;
     top: 0;
@@ -108,27 +116,30 @@ img {
     z-index: var(--z-fixed);
     transition: 0.5s;
   }
+
   .main {
     margin-top: 4rem;
   }
+
   .main #hero {
     background-image: url(../imgs/herobg.png);
     background-size: 54rem;
     background-repeat: no-repeat;
     height: 29rem;
   }
+
   .main #hero ::-moz-placeholder {
     color: white;
   }
-  .main #hero :-ms-input-placeholder {
-    color: white;
-  }
+
   .main #hero ::placeholder {
     color: white;
   }
+
   .main #hero #div1 #div2 .itm1 {
     margin-top: -7rem;
   }
+
   .main #hero #div1 #div2 .itm1 .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -137,23 +148,28 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #hero #div1 #div2 .itm1 .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #hero #div1 #div2 .itm1 .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section1 {
     padding: 29px;
   }
+
   .main #section1 .r1 #maindiv {
     padding: 75px 0 0 0;
     margin: 10px 0 0 0;
   }
+
   .main #section1 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -161,6 +177,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section1 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
@@ -170,6 +187,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section1 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -178,25 +196,31 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section1 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section1 .r1 #maindiv a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section1 .r1 .main3itm {
     margin: 27px 0 0 0;
   }
+
   .main #section2 {
     padding: 29px;
   }
+
   .main #section2 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section2 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -204,6 +228,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section2 .r1 #maindiv #paradev p {
     font-style: normal;
     font-weight: 300;
@@ -213,9 +238,11 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section2 .r1 #div1 .r3 {
     padding: 10px 0;
   }
+
   .main #section2 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
@@ -225,6 +252,7 @@ img {
     align-items: center;
     padding: 34px 0 0px 0;
   }
+
   .main #section2 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -234,6 +262,7 @@ img {
     align-items: center;
     padding: 15px 0;
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -242,22 +271,27 @@ img {
     border-radius: 0%;
     padding: 6px 0px;
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section3 {
     padding: 29px;
   }
+
   .main #section3 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section3 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -265,6 +299,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section3 .r1 #maindiv #paradev p {
     font-style: normal;
     font-weight: 300;
@@ -274,6 +309,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section3 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
@@ -282,6 +318,7 @@ img {
     display: flex;
     align-items: center;
   }
+
   .main #section3 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -291,6 +328,7 @@ img {
     align-items: center;
     padding: 4px 0;
   }
+
   .main #section3 .r1 #div1 .r3 a p span {
     padding: 2px 0 0 10px;
     font-style: normal;
@@ -300,6 +338,7 @@ img {
     align-items: center;
     color: #A7A2A2;
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -308,25 +347,30 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section4 {
     background-image: url(../imgs/Group14.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 75px 0 0 0;
   }
+
   .main #section4 .maindiv {
     padding: 5px 29px 45px 29px;
   }
+
   .main #section4 .maindiv .item2 form .btn3 {
     color: var(--white-color);
     background-color: transparent;
@@ -337,22 +381,27 @@ img {
     margin: 33px 0 0 0;
     font-size: 12px;
   }
+
   .main #section4 .maindiv .item2 form .btn3:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-color: var(--primary-color);
   }
+
   .main #section4 .maindiv .item2 form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section5 {
     padding: 29px;
   }
+
   .main #section5 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section5 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -360,6 +409,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section5 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
@@ -369,6 +419,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section5 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -377,25 +428,31 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section5 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section5 .r1 #maindiv a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section5 .r1 .main3itm {
     margin: 27px 0 0 0;
   }
+
   .main #section6 {
     padding: 29px;
   }
+
   .main #section6 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section6 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -403,6 +460,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section6 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -412,9 +470,11 @@ img {
     align-items: center;
     padding: 40px 0;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 {
     padding: 10px 0 0 0;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
     font-style: normal;
     font-size: 16px;
@@ -427,6 +487,7 @@ img {
     /* primary color */
     color: #9B8048;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 p {
     font-style: normal;
     line-height: 19px;
@@ -439,6 +500,7 @@ img {
     /* gray */
     color: #A7A2A2;
   }
+
   .main #section7 {
     margin-top: 10rem;
     background-image: url(../imgs/Rectangle12.png);
@@ -446,9 +508,11 @@ img {
     background-repeat: no-repeat;
     padding: 29px;
   }
+
   .main #section7 .r1 #maindiv {
     padding: 28px 0 0 0;
   }
+
   .main #section7 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -457,6 +521,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section7 .r1 #maindiv p {
     font-style: normal;
     font-weight: 500;
@@ -464,16 +529,20 @@ img {
     line-height: 19px;
     color: white;
   }
+
   .main #section7 .r1 .div2 .formdiv {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     margin: 61px 0;
   }
+
   .main #section7 .r1 .div2 .formdiv form input {
     background: none;
   }
+
   .main #section7 .r1 .div2 .formdiv form textarea {
     background: none;
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -482,41 +551,47 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3:hover {
     background-color: transparent;
     color: var(--white-color);
     border-color: var(--primary-color);
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   #footer {
     background-color: var(--white-color);
   }
+
   #footer #footer_main ::-moz-placeholder {
     color: white;
   }
-  #footer #footer_main :-ms-input-placeholder {
-    color: white;
-  }
+
   #footer #footer_main ::placeholder {
     color: white;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form .icon {
     padding: 10px 0px;
     min-width: 40px;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form #email {
     background: transparent;
     width: 69%;
     padding: 5px 35px;
     color: white;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button {
     margin: 5px 0;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 {
     color: var(--dark-color);
     background-color: var(--white-color);
@@ -524,35 +599,41 @@ img {
     width: 69%;
     padding: 6px 42px;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3:hover {
     background-color: var(--first-color);
     color: var(--white-color);
     border-color: var(--first-color);
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a {
     color: white;
     display: inline-block;
     font-size: 8px;
     padding: 0 2px;
   }
+
   #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a:hover {
     color: var(--first-color);
   }
+
   #footer #footer_main #f_div1 .item2 {
     margin-top: -12rem;
   }
 }
+
 .nav__content {
   height: 100%;
-  grid-template-rows: -webkit-max-content 1fr -webkit-max-content;
   grid-template-rows: max-content 1fr max-content;
   row-gap: 2rem;
 }
+
 .nav__close {
   position: absolute;
   right: 1.5rem;
@@ -562,43 +643,54 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+
 .nav__name {
   display: block;
   color: var(--white-color);
 }
+
 .nav__profesion {
   font-size: var(--small-font-size);
 }
+
 .nav__menu {
   align-self: center;
 }
+
 .nav__menu:hover {
   color: var(--white-color);
 }
+
 .nav__item {
   margin: 1.5rem 0;
 }
+
 .nav__link {
   color: var(--white-color);
 }
+
 .nav__buttons {
   padding-top: 0.5rem;
 }
+
 .nav__buttons .btn1 {
   color: var(--white-color);
   background-color: transparent;
   border-color: var(--white-color);
 }
+
 .nav__buttons .btn1:hover {
   background-color: var(--first-color);
   color: var(--white-color);
   border-color: var(--first-color);
 }
+
 .nav__buttons .btn2 {
   color: var(--white-color);
   background-color: var(--first-color);
   border-color: var(--first-color);
 }
+
 .nav__buttons .btn2:hover {
   background-color: transparent;
   color: var(--white-color);
@@ -620,37 +712,46 @@ img {
   body {
     margin: 0;
   }
+
   .header {
     height: calc(var(--header-height) + 1rem);
     background-color: var(--white-color);
   }
-  .header__logo, .header__toggle {
+
+  .header__logo,
+  .header__toggle {
     display: none;
   }
+
   .nav {
     width: 100%;
     background-color: var(--white-color);
   }
+
   .nav__content {
-    grid-template-columns: repeat(4, -webkit-max-content);
     grid-template-columns: repeat(4, max-content);
     grid-template-rows: 1fr;
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
     justify-content: space-between;
   }
-  .nav__close, .nav__profesion {
+
+  .nav__close,
+  .nav__profesion {
     display: none;
   }
+
   .nav__perfil {
     display: flex;
     align-items: center;
   }
+
   .nav__menu {
     align-self: center;
     align-self: center;
     margin: 0px 0rem 0 24rem;
   }
+
   .nav__menu .btn2 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -660,16 +761,19 @@ img {
     border-radius: 0;
     text-align: start;
   }
+
   .nav__menu .btn2:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .nav__menu .btn2 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .nav__img {
     width: 32px;
     height: 32px;
@@ -677,31 +781,39 @@ img {
     margin-bottom: 0;
     align-items: center;
   }
+
   .nav__img img {
     width: 26px;
   }
+
   .nav__list {
     display: flex;
   }
+
   .nav__item {
     margin: 0 0.25rem;
     color: black;
     display: flex;
   }
+
   .nav__link {
     padding: 0.5rem 0.8rem;
     border-radius: 0.25rem;
   }
+
   .nav__link:hover {
     background-color: var(--first-color);
     color: var(--dark-color);
   }
+
   .nav__buttons {
     padding-top: 0.5rem;
   }
+
   .main {
     margin-top: 4rem;
   }
+
   .main #hero {
     margin-left: 3.5rem;
     background-image: url(../imgs/herobg.png);
@@ -709,18 +821,19 @@ img {
     background-repeat: no-repeat;
     height: 43rem;
   }
+
   .main #hero ::-moz-placeholder {
     color: white;
   }
-  .main #hero :-ms-input-placeholder {
-    color: white;
-  }
+
   .main #hero ::placeholder {
     color: white;
   }
+
   .main #hero #div1 #div2 .itm1 {
     margin-top: -7rem;
   }
+
   .main #hero #div1 #div2 .itm1 .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -729,22 +842,27 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #hero #div1 #div2 .itm1 .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #hero #div1 #div2 .itm1 .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section1 {
     margin-top: 10rem;
   }
+
   .main #section1 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section1 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -752,6 +870,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section1 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
@@ -761,6 +880,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section1 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -769,22 +889,27 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section1 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section1 .r1 #maindiv a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section2 {
     margin-top: 10rem;
   }
+
   .main #section2 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section2 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -792,6 +917,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section2 .r1 #maindiv #paradev p {
     font-style: normal;
     font-weight: 300;
@@ -801,6 +927,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section2 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
@@ -810,6 +937,7 @@ img {
     align-items: center;
     padding: 34px 0 0px 0;
   }
+
   .main #section2 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -819,6 +947,7 @@ img {
     align-items: center;
     padding: 15px 0;
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -827,22 +956,27 @@ img {
     border-radius: 0%;
     padding: 6px 0px;
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section2 .r1 #div1 .r3 a .btn2 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section3 {
     margin-top: 10rem;
   }
+
   .main #section3 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section3 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -850,6 +984,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section3 .r1 #maindiv #paradev p {
     font-style: normal;
     font-weight: 300;
@@ -859,6 +994,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section3 .r1 #div1 .r3 h4 {
     font-style: normal;
     font-weight: 500;
@@ -867,6 +1003,7 @@ img {
     display: flex;
     align-items: center;
   }
+
   .main #section3 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -876,6 +1013,7 @@ img {
     align-items: center;
     padding: 4px 0;
   }
+
   .main #section3 .r1 #div1 .r3 a p span {
     padding: 2px 0 0 10px;
     font-style: normal;
@@ -885,6 +1023,7 @@ img {
     align-items: center;
     color: #A7A2A2;
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -893,22 +1032,26 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section3 .r1 #div1 .r3 a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section4 {
     background-image: url(../imgs/Group14.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 75px 0 0 0;
   }
+
   .main #section4 .maindiv .item2 form .btn3 {
     color: var(--white-color);
     background-color: transparent;
@@ -919,22 +1062,27 @@ img {
     margin: 33px 0 0 0;
     font-size: 12px;
   }
+
   .main #section4 .maindiv .item2 form .btn3:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-color: var(--primary-color);
   }
+
   .main #section4 .maindiv .item2 form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section5 {
     margin-top: 10rem;
   }
+
   .main #section5 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section5 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -942,6 +1090,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section5 .r1 #maindiv p {
     font-style: normal;
     font-weight: 300;
@@ -951,6 +1100,7 @@ img {
     align-items: center;
     padding: 3rem 0;
   }
+
   .main #section5 .r1 #maindiv a .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -959,22 +1109,27 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section5 .r1 #maindiv a .btn3:hover {
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);
   }
+
   .main #section5 .r1 #maindiv a .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
+
   .main #section6 {
     margin-top: 10rem;
   }
+
   .main #section6 .r1 #maindiv {
     padding: 75px 0 0 0;
   }
+
   .main #section6 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -982,6 +1137,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section6 .r1 #div1 .r3 p {
     font-style: normal;
     font-weight: 300;
@@ -991,9 +1147,11 @@ img {
     align-items: center;
     padding: 40px 0;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 {
     padding: 10px 0 0 0;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 h4 {
     font-style: normal;
     font-size: 16px;
@@ -1006,6 +1164,7 @@ img {
     /* primary color */
     color: #9B8048;
   }
+
   .main #section6 .r1 #div1 .r3 .r3div #div2 p {
     font-style: normal;
     line-height: 19px;
@@ -1018,15 +1177,18 @@ img {
     /* gray */
     color: #A7A2A2;
   }
+
   .main #section7 {
     margin-top: 10rem;
     background-image: url(../imgs/Rectangle12.png);
     background-size: 100rem;
     background-repeat: no-repeat;
   }
+
   .main #section7 .r1 #maindiv {
     padding: 149px 0 128px 0;
   }
+
   .main #section7 .r1 #maindiv h4 {
     font-style: normal;
     font-weight: 700;
@@ -1035,6 +1197,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
   }
+
   .main #section7 .r1 #maindiv p {
     font-style: normal;
     font-weight: 500;
@@ -1042,16 +1205,20 @@ img {
     line-height: 19px;
     color: white;
   }
+
   .main #section7 .r1 .div2 .formdiv {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     margin: 135px 0;
   }
+
   .main #section7 .r1 .div2 .formdiv form input {
     background: none;
   }
+
   .main #section7 .r1 .div2 .formdiv form textarea {
     background: none;
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -1060,46 +1227,53 @@ img {
     border-radius: 0%;
     padding: 6px 20px;
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3:hover {
     background-color: transparent;
     color: var(--white-color);
     border-color: var(--primary-color);
   }
+
   .main #section7 .r1 .div2 .formdiv form .btn3 span {
     word-spacing: 0px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
   }
 }
+
 #footer {
   background-color: var(--white-color);
   margin-top: 10rem;
 }
+
 #footer #footer_main ::-moz-placeholder {
   color: white;
 }
-#footer #footer_main :-ms-input-placeholder {
-  color: white;
-}
+
 #footer #footer_main ::placeholder {
   color: white;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 {
   margin-top: -3rem;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form .icon {
   padding: 10px 0px;
   min-width: 40px;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form #email {
   background: transparent;
   width: 69%;
   padding: 5px 35px;
   color: white;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form .hero_button {
   margin: 5px 0;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 {
   color: var(--dark-color);
   background-color: var(--white-color);
@@ -1107,25 +1281,30 @@ img {
   width: 69%;
   padding: 6px 42px;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3:hover {
   background-color: var(--first-color);
   color: var(--white-color);
   border-color: var(--first-color);
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 form .hero_button .btn3 span {
   word-spacing: 0px;
   letter-spacing: 1.8px;
   text-transform: uppercase;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a {
   color: white;
   display: inline-block;
   font-size: 8px;
   padding: 0 2px;
 }
+
 #footer #footer_main #f_div1 #div2 .itm1 #link-ftr a:hover {
   color: var(--first-color);
 }
+
 #footer #footer_main #f_div1 .item2 {
   margin-top: -12rem;
 }
@@ -1136,6 +1315,7 @@ img {
     margin-right: auto;
   }
 }
+
 /* ====== DropDown 1======*/
 .sec-center {
   position: relative;
@@ -1152,8 +1332,8 @@ img {
   pointer-events: none;
 }
 
-.dropdown:checked + label,
-.dropdown:not(:checked) + label {
+.dropdown:checked+label,
+.dropdown:not(:checked)+label {
   position: relative;
   transition: all 200ms linear;
   width: 107px;
@@ -1165,8 +1345,8 @@ img {
   color: #fff;
 }
 
-.dropdown:checked + label:before,
-.dropdown:not(:checked) + label:before {
+.dropdown:checked+label:before,
+.dropdown:not(:checked)+label:before {
   position: fixed;
   top: 0;
   left: 0;
@@ -1182,21 +1362,24 @@ for_dropdown {
   color: var(--dark-color);
 }
 
-.dropdown:checked + label:before {
+.dropdown:checked+label:before {
   pointer-events: auto;
 }
-.dropdown:checked + label .uil {
+
+.dropdown:checked+label .uil {
   transform: rotate(180deg);
   font-size: 24px;
   margin-left: 10px;
   transition: transform 200ms linear;
 }
-.dropdown:checked ~ .section-dropdown {
+
+.dropdown:checked~.section-dropdown {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
 }
-.dropdown:not(:checked) + label .uil {
+
+.dropdown:not(:checked)+label .uil {
   font-size: 24px;
   margin-left: 10px;
   transition: transform 200ms linear;
@@ -1217,6 +1400,7 @@ for_dropdown {
   transform: translateY(20px);
   transition: all 200ms linear;
 }
+
 .section-dropdown:before {
   position: absolute;
   top: -20px;
@@ -1227,6 +1411,7 @@ for_dropdown {
   display: block;
   z-index: 1;
 }
+
 .section-dropdown:after {
   position: absolute;
   top: -7px;
@@ -1241,6 +1426,7 @@ for_dropdown {
   z-index: 2;
   transition: all 200ms linear;
 }
+
 .section-dropdown a {
   position: relative;
   color: #fff;
@@ -1257,16 +1443,18 @@ for_dropdown {
   align-items: center;
   justify-content: space-between;
 }
+
 .section-dropdown a:hover {
   color: var(--white-color);
   background-color: var(--first-color);
 }
+
 .section-dropdown a .uil {
   font-size: 22px;
 }
 
-.dropdown-sub:checked + label,
-.dropdown-sub:not(:checked) + label {
+.dropdown-sub:checked+label,
+.dropdown-sub:not(:checked)+label {
   position: relative;
   color: #fff;
   transition: all 200ms linear;
@@ -1288,26 +1476,28 @@ for_dropdown {
   cursor: pointer;
 }
 
-.dropdown-sub:checked + label .uil,
-.dropdown-sub:not(:checked) + label .uil {
+.dropdown-sub:checked+label .uil,
+.dropdown-sub:not(:checked)+label .uil {
   font-size: 22px;
 }
 
-.dropdown-sub:not(:checked) + label .uil {
+.dropdown-sub:not(:checked)+label .uil {
   transition: transform 200ms linear;
 }
-.dropdown-sub:checked + label .uil {
+
+.dropdown-sub:checked+label .uil {
   transform: rotate(135deg);
   transition: transform 200ms linear;
 }
-.dropdown-sub:checked ~ .section-dropdown-sub {
+
+.dropdown-sub:checked~.section-dropdown-sub {
   pointer-events: auto;
   opacity: 1;
   max-height: 999px;
 }
 
-.dropdown-sub:checked + label:hover,
-.dropdown-sub:not(:checked) + label:hover {
+.dropdown-sub:checked+label:hover,
+.dropdown-sub:not(:checked)+label:hover {
   color: #102770;
   background-color: #ffeba7;
 }
@@ -1324,9 +1514,11 @@ for_dropdown {
   overflow: hidden;
   transition: all 200ms linear;
 }
+
 .section-dropdown-sub a {
   font-size: 14px;
 }
+
 .section-dropdown-sub a .uil {
   font-size: 20px;
 }
@@ -1346,8 +1538,8 @@ for_dropdown {
   pointer-events: none;
 }
 
-.dropdown2:checked + label,
-.dropdown2:not(:checked) + label {
+.dropdown2:checked+label,
+.dropdown2:not(:checked)+label {
   position: relative;
   transition: all 200ms linear;
   width: 107px;
@@ -1359,8 +1551,8 @@ for_dropdown {
   color: #fff;
 }
 
-.dropdown2:checked + label:before,
-.dropdown2:not(:checked) + label:before {
+.dropdown2:checked+label:before,
+.dropdown2:not(:checked)+label:before {
   position: fixed;
   top: 0;
   left: 0;
@@ -1372,21 +1564,24 @@ for_dropdown {
   pointer-events: none;
 }
 
-.dropdown2:checked + label:before {
+.dropdown2:checked+label:before {
   pointer-events: auto;
 }
-.dropdown2:checked + label .uil {
+
+.dropdown2:checked+label .uil {
   transform: rotate(180deg);
   font-size: 24px;
   margin-left: 10px;
   transition: transform 200ms linear;
 }
-.dropdown2:checked ~ .section-dropdown2 {
+
+.dropdown2:checked~.section-dropdown2 {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
 }
-.dropdown2:not(:checked) + label .uil {
+
+.dropdown2:not(:checked)+label .uil {
   font-size: 24px;
   margin-left: 10px;
   transition: transform 200ms linear;
@@ -1407,6 +1602,7 @@ for_dropdown {
   transform: translateY(20px);
   transition: all 200ms linear;
 }
+
 .section-dropdown2:before {
   position: absolute;
   top: -20px;
@@ -1417,6 +1613,7 @@ for_dropdown {
   display: block;
   z-index: 1;
 }
+
 .section-dropdown2:after {
   position: absolute;
   top: -7px;
@@ -1431,6 +1628,7 @@ for_dropdown {
   z-index: 2;
   transition: all 200ms linear;
 }
+
 .section-dropdown2 a {
   position: relative;
   color: #fff;
@@ -1447,16 +1645,18 @@ for_dropdown {
   align-items: center;
   justify-content: space-between;
 }
+
 .section-dropdown2 a:hover {
   color: var(--white-color);
   background-color: var(--first-color);
 }
+
 .section-dropdown2 a .uil {
   font-size: 22px;
 }
 
-.dropdown2-sub:checked + label,
-.dropdown2-sub:not(:checked) + label {
+.dropdown2-sub:checked+label,
+.dropdown2-sub:not(:checked)+label {
   position: relative;
   color: #fff;
   transition: all 200ms linear;
@@ -1474,26 +1674,28 @@ for_dropdown {
   cursor: pointer;
 }
 
-.dropdown2-sub:checked + label .uil,
-.dropdown2-sub:not(:checked) + label .uil {
+.dropdown2-sub:checked+label .uil,
+.dropdown2-sub:not(:checked)+label .uil {
   font-size: 22px;
 }
 
-.dropdown-sub:not(:checked) + label .uil {
+.dropdown-sub:not(:checked)+label .uil {
   transition: transform 200ms linear;
 }
-.dropdown-sub:checked + label .uil {
+
+.dropdown-sub:checked+label .uil {
   transform: rotate(135deg);
   transition: transform 200ms linear;
 }
-.dropdown-sub:checked ~ .section-dropdown-sub {
+
+.dropdown-sub:checked~.section-dropdown-sub {
   pointer-events: auto;
   opacity: 1;
   max-height: 999px;
 }
 
-.dropdown-sub:checked + label:hover,
-.dropdown-sub:not(:checked) + label:hover {
+.dropdown-sub:checked+label:hover,
+.dropdown-sub:not(:checked)+label:hover {
   color: #102770;
   background-color: #ffeba7;
 }
@@ -1510,9 +1712,13 @@ for_dropdown {
   overflow: hidden;
   transition: all 200ms linear;
 }
+
 .section-dropdown-sub a {
   font-size: 14px;
 }
+
 .section-dropdown-sub a .uil {
   font-size: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
